@@ -41,8 +41,7 @@ class PillButton extends StatelessWidget {
               ),
         onPressed: isLoading ? null : onPressed,
         style: ElevatedButton.styleFrom(
-          primary: color,
-          onPrimary: Colors.white,
+          foregroundColor: Colors.white, backgroundColor: color,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(radius),
           ),

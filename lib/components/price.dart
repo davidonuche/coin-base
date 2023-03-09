@@ -36,7 +36,7 @@ class Price extends StatelessWidget {
           TextSpan(
             text: amount.whole,
             style: TextStyle(
-              color: Theme.of(context).textTheme.bodyText1!.color,
+              color: Theme.of(context).textTheme.bodyLarge!.color,
               fontWeight: FontWeight.w300,
               fontSize: 36,
             ),
@@ -44,7 +44,7 @@ class Price extends StatelessWidget {
           TextSpan(
             text: ".${amount.fractional}",
             style: TextStyle(
-              color: Theme.of(context).textTheme.bodyText1!.color,
+              color: Theme.of(context).textTheme.bodyLarge!.color,
               fontWeight: FontWeight.w300,
               fontSize: 18,
             ),

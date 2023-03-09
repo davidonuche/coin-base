@@ -4,7 +4,6 @@ import 'package:basecoin/utilities/colors.dart';
 import 'package:basecoin/utilities/config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 import 'models/assets/assets.dart';
 
 void main() {
@@ -42,10 +41,10 @@ class _AppState extends State<App> {
         backgroundColor: AppColors.lilyWhite,
         textTheme: ThemeData.light().textTheme.copyWith(),
         textButtonTheme: TextButtonThemeData(
-          style: TextButton.styleFrom(primary: Colors.black),
+          style: TextButton.styleFrom(foregroundColor: Colors.black),
         ),
         outlinedButtonTheme: OutlinedButtonThemeData(
-          style: OutlinedButton.styleFrom(primary: Colors.black),
+          style: OutlinedButton.styleFrom(foregroundColor: Colors.black),
         ),
       ),
       darkTheme: ThemeData.dark().copyWith(
@@ -53,10 +52,10 @@ class _AppState extends State<App> {
           color: AppColors.deepBlack,
         ),
         textButtonTheme: TextButtonThemeData(
-          style: TextButton.styleFrom(primary: Colors.white),
+          style: TextButton.styleFrom(foregroundColor: Colors.white),
         ),
         outlinedButtonTheme: OutlinedButtonThemeData(
-          style: OutlinedButton.styleFrom(primary: Colors.white),
+          style: OutlinedButton.styleFrom(foregroundColor: Colors.white),
         ),
         primaryColor: AppColors.deepBlack,
         backgroundColor: AppColors.deepBlack,

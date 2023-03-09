@@ -7,9 +7,7 @@ import 'package:basecoin/models/assets/asset.dart';
 import 'package:basecoin/utilities/colors.dart';
 import 'package:basecoin/utilities/device.dart';
 import 'package:basecoin/utilities/format.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 class AssetDetails extends StatefulWidget {
   final Asset asset;
